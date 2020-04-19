@@ -5,5 +5,83 @@ body{
     margin: 0;
 }
 main{
-    background-image: url("podklady/Table-desktop.png");
+    height: 100vh;
+    background-image: url("../podklady/Table-desktop.png");
+    background-size: cover;
+    background-position: center;
+    /*background-color: blue;*/
+}
+.pole{
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+.center{
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+}
+.center img{
+    height: 100%;
+    width: auto;
+    transform: translateX(-20px) rotate(10deg);
+    
+   
+}
+.desk1{
+    position: relative;
+    text-align: center;
+    margin: 0 10% 0 10%;
+    width: auto;
+    height: 20vh;
+    background-color: rgba(131, 156, 191, 0.74);
+    border-radius: 9px 9px 0 0;
+    transform: rotate(180deg);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
+    overflow-x: scroll;
+
+}
+.sada1{
+    position: relative;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+   
+}
+section img{
+    height: 100%;
+    width: auto;
+}
+section > img:hover{
+    cursor: grab;
+}
+
+.desk2{
+    position: relative;
+    text-align: center;
+    margin: 0 10% 0 10%;
+    transform: translateY(60vh);
+    width: auto;
+    height: 20%;
+    background-color: rgba(131, 156, 191, 0.74);
+    border-radius: 9px 9px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
+    overflow-x: scroll;
+
+}
+.sada2{
+    position: relative;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+   
 }
