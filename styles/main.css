@@ -22,14 +22,18 @@ main{
     bottom: 35%;
     left: 35%;
     right: 35%;
-    text-align: center;
+   
 }
 .center img{
+    position: absolute;
     height: 100%;
     width: auto;
-    transform: translateX(-20px) rotate(10deg);
+    transform: translateX(-20px);
     
    
+}
+.center img:nth-child(2){
+    transform: translateX(2px) rotate(10deg);
 }
 .desk1{
     position: relative;
