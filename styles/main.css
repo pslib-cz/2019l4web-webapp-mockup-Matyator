@@ -6,7 +6,7 @@ body{
 }
 main{
     height: 100vh;
-    background-image: url("../podklady/Table-desktop.png");
+    background-image: url("../podklady/Table-desktop.svg");
     background-size: cover;
     background-position: center;
     /*background-color: blue;*/
@@ -95,7 +95,7 @@ main{
     flex-direction: row;
    
 }
-div > section img{
+div > div img{
     height: 100%;
     width: auto;
     margin: 1% 1% 0 1%;
