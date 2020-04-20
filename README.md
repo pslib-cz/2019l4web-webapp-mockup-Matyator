@@ -17,10 +17,10 @@ Celkem 44 karet:
 ![Sada-karet](/podklady/Sadakaret.PNG)
 
 ## Struktura
-Celé hrací pole s kartami se nachází v `div class="pole"`
-`"desk1"` = protihráčův stůl (hráč 2)
-`"sada1"` = sada karet protihráče seřazených vedle sebe, obsahuje `img` jednotlivých karet *Card-Rub.svg* otočené lícem dolů
-`"center"` = prostředek hracího stolu, obsahující akční část `"odhoz"` s položenými karty na stole, např. *Card-fire-5.svg*
+* Celé hrací pole s kartami se nachází v `div class="pole"`
+* `"desk1"` = protihráčův stůl (hráč 2)
+* `"sada1"` = sada karet protihráče seřazených vedle sebe, obsahuje `img` jednotlivých karet *Card-Rub.svg* otočené lícem dolů
+* `"center"` = prostředek hracího stolu, obsahující akční část `"odhoz"` s položenými karty na stole, např. *Card-fire-5.svg*
 a část `"balíček"` s lízacím balíčkem karet, otočenými lícem dolů *Card-Rub.svg*
-`"desk2"` = hráčův stůl (hráč 1)
-`"sada1"` = sada karet hráče seřazených vedle sebe, obsahuje `img` různých typů karet, např. *Card-water-2.svg*, *Menic-1.svg*
+* `"desk2"` = hráčův stůl (hráč 1)
+* `"sada1"` = sada karet hráče seřazených vedle sebe, obsahuje `img` různých typů karet, např. *Card-water-2.svg*, *Menic-1.svg*
