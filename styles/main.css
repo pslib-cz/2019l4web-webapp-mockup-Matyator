@@ -25,12 +25,7 @@ main{
     width: auto;
     height: 60vh;
     margin: 0;
-    /*top: 35%;
-    bottom: 35%;
-    left: 35%;
-    right: 35%;*/
-    
-   
+
 }
 .odhoz img{
     position: absolute;
@@ -40,11 +35,13 @@ main{
     bottom: 10vh;
     width: auto;
     box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 20px;
-    border-radius: 9px;
-    /*transform: translateX(-20px);*/ 
+    border-radius: 3%;
 }
-.odhoz img:nth-child(2){
+.odhoz img:nth-child(2n){
     transform: translateX(2px) rotate(10deg);
+}
+.odhoz img:nth-child(3n){
+    transform: translateX(1px) rotate(-5deg);
 }
 .odhoz{
     position: relative;
@@ -65,12 +62,15 @@ main{
     left: 20%;
     bottom: 10vh;
     width: auto;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 20px;
-    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 8px 20px;
+    border-radius: 3%;
    
 }
 .balicek img:nth-child(2){
-    transform: translateX(-5px);
+    transform: translateX(5px);
+}
+.balicek img:nth-child(3){
+    transform: translateX(10px);
 }
 .desk1{
     position: relative;
@@ -83,11 +83,11 @@ main{
     transform: rotate(180deg);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
     overflow-x: scroll;
+    overflow-y: hidden;
 
 }
 .sada1{
     position: relative;
-    padding: 0;
     justify-content: center;
     width: 100%;
     height: 90%;
@@ -98,14 +98,19 @@ main{
 div > div img{
     height: 100%;
     width: auto;
-    margin: 1% 1% 0 1%;
+    margin: 1%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
-    border-radius: 9px;
+    border-radius: 3%;
 
 }
-img:hover{
+.sada2 img:hover{
     cursor: grab;
-    border: solid 3px rgb(54, 88, 110);
+    border: solid 3.5px rgb(54, 88, 110);
+   
+}
+.balicek img:hover{
+    cursor: grab;
+    border: solid 3.5px rgb(54, 88, 110);
    
 }
 
@@ -120,11 +125,11 @@ img:hover{
     border-radius: 9px 9px 0 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
     overflow-x: scroll;
+    overflow-y: hidden;
 
 }
 .sada2{
     position: relative;
-    padding: 0;
     justify-content: center;
     width: 100%;
     height: 90%;
