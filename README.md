@@ -16,6 +16,9 @@ Celkem 44 karet:
 ## Sada karet
 ![Sada-karet](/podklady/Sadakaret.PNG)
 
+## Vzhled hry
+![Vizuál hry](/podklady/Hra-Vizual.PNG)
+
 ## Struktura
 * Celé hrací pole s kartami se nachází v `div class="pole"` obsahující pozadí hracího stolu *Table-desktop.svg*
 * `"desk1"` = protihráčův stůl (hráč 2)
