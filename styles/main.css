@@ -14,27 +14,63 @@ main{
 .pole{
     position: relative;
     width: auto;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 .center{
-    position: absolute;
-    top: 35%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 60vh;
+    margin: 0;
+    /*top: 35%;
     bottom: 35%;
     left: 35%;
-    right: 35%;
+    right: 35%;*/
     
    
 }
-.center img{
+.odhoz img{
     position: absolute;
-    height: 100%;
+    height: 30vh;
+    top: 15vh;
+    right: 20%;
+    bottom: 10vh;
     width: auto;
-    transform: translateX(-20px);
-    
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 20px;
+    border-radius: 9px;
+    /*transform: translateX(-20px);*/ 
+}
+.odhoz img:nth-child(2){
+    transform: translateX(2px) rotate(10deg);
+}
+.odhoz{
+    position: relative;
+    height: 100%;
+    width: 65%;
    
 }
-.center img:nth-child(2){
-    transform: translateX(2px) rotate(10deg);
+.balicek{
+    position: relative;
+    height: 100%;
+    width: 35%;
+}
+
+.balicek img{
+    position: absolute;
+    height: 30vh;
+    top: 15vh;
+    left: 20%;
+    bottom: 10vh;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 20px;
+    border-radius: 9px;
+   
+}
+.balicek img:nth-child(2){
+    transform: translateX(-5px);
 }
 .desk1{
     position: relative;
@@ -59,24 +95,27 @@ main{
     flex-direction: row;
    
 }
-section img{
+div > section img{
     height: 100%;
     width: auto;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
+    margin: 1% 1% 0 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
+    border-radius: 9px;
+
 }
-section > img:hover{
+img:hover{
     cursor: grab;
+    border: solid 3px rgb(54, 88, 110);
+   
 }
 
 .desk2{
     position: relative;
     text-align: center;
     margin: 0 10% 0 10%;
-    transform: translateY(60vh);
+    /*transform: translateY(60vh);*/
     width: auto;
-    height: 20%;
+    height: 20vh;
     background-color: rgba(131, 156, 191, 0.74);
     border-radius: 9px 9px 0 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
@@ -93,11 +132,32 @@ section > img:hover{
     flex-direction: row;
    
 }
-.balicek{
-    position: absolute;
-    top: 35%;
-    bottom: 35%;
-    right: 5%;
-    width: 20%;
 
-}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.596);*/
+    border-radius: 9px;
+    background-color: transparent;
+    
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(188, 211, 243, 0.74);
+    border-radius: 9px;
+    box-shadow: inset 0 0 7px rgba(96, 114, 139, 0.74)
+  }
+ @media (max-width: 460px){
+     .balicek img{
+         height: 18vh;
+     }
+     .priloz img{
+        height: 28vh;
+    }
+ }
