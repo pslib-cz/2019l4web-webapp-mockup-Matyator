@@ -26,5 +26,5 @@ a část `"balíček"` s lízacím balíčkem karet, otočenými lícem dolů *C
 * `"sada1"` = sada karet hráče seřazených vedle sebe, obsahuje `img` různých typů karet, např. *Card-water-2.svg*, *Menic-1.svg*
 
 ## Dodatečné Informace
-* Ve složce ***podklady*** se nachází pozadí hracího stolu a složka *karty* se všemi hracími kartami
+* Ve složce ***podklady*** se nachází pozadí hracího stolu a složka ***karty*** se všemi hracími kartami
 * Ve složce ***styles*** je umístěn main.css
