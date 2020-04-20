@@ -27,4 +27,4 @@ a část `"balíček"` s lízacím balíčkem karet, otočenými lícem dolů *C
 
 ## Dodatečné Informace
 * Ve složce ***podklady*** se nachází pozadí hracího stolu a složka ***karty*** se všemi hracími kartami
-* Ve složce ***styles*** je umístěn main.css
+* Ve složce ***styles*** je umístěn *main.css*
